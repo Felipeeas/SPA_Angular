@@ -1,0 +1,10 @@
+.box-faturamento {
+   padding: 30px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+
+ .box-faturamento h1 {
+    margin: 0;
+ }

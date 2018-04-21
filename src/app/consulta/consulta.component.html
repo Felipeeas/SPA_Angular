@@ -1,0 +1,7 @@
+<div class="content col-sm-12">
+  <div class="row" style="padding: 5px">
+    <app-consulta-por-especialidade [erro] = 'erro' class="col-sm-6" [consultas]="consultas?.realizadas" titulo="Consultas Realizadas últimos 30 dias"></app-consulta-por-especialidade>
+    <app-consulta-por-especialidade [erro] = 'erro' class="col-sm-6" [consultas]="consultas?.marcadas" titulo="Consultas Marcadas próximos 30 dias"></app-consulta-por-especialidade>
+  </div>
+</div>
+

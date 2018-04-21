@@ -1,0 +1,20 @@
+<app-painel-simples class="col-sm-6" titulo="{{titulo}}" col="12">
+  <table *ngIf="!erro; else mensagem" class="table table-hover">
+    <thead>
+    <tr>
+      <th scope="col">Especialidade</th>
+      <th scope="col">Quantidade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let consulta of consultas">
+      <td>{{consulta.especialidade}}</td>
+      <td>{{consulta.quantidade}}</td>
+    </tr>
+    </tbody>
+  </table>
+
+  <ng-template #mensagem>
+    <div class="alert alert-danger" role="alert">Falha na comunicação com o servidor!</div>
+  </ng-template>
+</app-painel-simples>

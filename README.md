@@ -1,3 +1,3 @@
 # SPA_Angular
 
-Projeto criado para estudo e treinamento Angular. 
+Uma simples Single Page Application sendo desenvolvida com intúito de aprendizado.
